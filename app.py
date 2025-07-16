@@ -9,9 +9,10 @@ from openpyxl.styles import Border, Side
 
 app = Flask(__name__)
 
-CARPETA_FIRMAS = os.path.join("data", "firmas")
+CARPETA_FIRMAS = r"C:\Users\SENA\OneDrive\asistencia.xslx\firma\firmas"
 os.makedirs(CARPETA_FIRMAS, exist_ok=True)
-ARCHIVO_EXCEL = os.path.join("data", "registros.xlsx")
+ARCHIVO_EXCEL = "data/GIC-F-LMPM-048 Control de Ingreso de Visitantes y Personal de Laboratorio.xlsx"
+
 
 
 
